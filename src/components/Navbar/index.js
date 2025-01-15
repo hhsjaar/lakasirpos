@@ -9,6 +9,7 @@ const Navbar = () => {
   const menuItems = [
     { label: 'Solutions', href: '#solutions' },
     { label: 'Services', href: '#services' },
+    { label: 'Pricing', href: '#services' },
     { label: 'Marketplace', href: '/marketplace' },
   ];
 
@@ -43,13 +44,15 @@ const Navbar = () => {
 
           {/* Bagian Kanan - Button */}
           <div className="flex flex-wrap space-x-2 sm:space-x-4 mt-4 md:mt-0">
-            <button
-              className="bg-orange-custom text-white-custom px-4 py-2 text-xs rounded-full 
-                         hover:bg-black-custom hover:text-white-custom transition dark:hover:bg-white-custom dark:hover:text-black-custom
-                         sm:px-6 sm:py-2 sm:text-sm md:px-6 md:py-2 md:text-base lg:px-5 lg:py-2 lg:text-sm"
-            >
-              Demo
-            </button>
+          <Link href="/demo">
+              <button
+                className="bg-orange-custom text-white-custom px-4 py-2 text-xs rounded-full 
+                          hover:bg-black-custom hover:text-white-custom transition dark:hover:bg-white-custom dark:hover:text-black-custom
+                          sm:px-6 sm:py-2 sm:text-sm md:px-6 md:py-2 md:text-base lg:px-5 lg:py-2 lg:text-sm"
+              >
+                Demo
+              </button>
+            </Link>
             
 
             <button

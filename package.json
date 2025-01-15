@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "aos": "^2.3.4",
     "flowbite": "^2.5.2",
     "framer-motion": "^11.15.0",
